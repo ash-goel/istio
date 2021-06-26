@@ -1,1 +1,14 @@
-# istio
+k get vs --all-namespaces
+kubectl get gateway --all-namespaces\n
+k apply -f deploy-hello-world.yaml
+k apply -f deploy-hello-world.yaml
+k apply -f svc-hello-world.yaml
+export ns=istio-test
+alias k='kubectl -n=$ns'
+k get gateway
+k get svc -l=istio=ingressgateway -n istio-system
+
+download Istio
+curl -sL https://istio.tetratelabs.io/getmesh/install.sh | bash
+
+install demo profile
