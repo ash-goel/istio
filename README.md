@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 k get vs --all-namespaces
 kubectl get gateway --all-namespaces\n
 k apply -f deploy-hello-world.yaml
@@ -12,3 +13,6 @@ download Istio
 curl -sL https://istio.tetratelabs.io/getmesh/install.sh | bash
 
 install demo profile
+=======
+# istio
+>>>>>>> f3c20f8424f980fa0404746e1c70b31ca9ba2b1b
